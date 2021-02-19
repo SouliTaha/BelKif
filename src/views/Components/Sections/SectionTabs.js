@@ -35,73 +35,71 @@ export default function SectionTabs() {
           <h3>News</h3>
           <GridContainer>
             <GridItem xs={8} sm={8} md={4}>
-            <Card className={classes.root}>
-             <CardActionArea>
-               <CardMedia
-                  component="img"
-                  alt="Contemplative Reptile"
-                  height="160"
-                  width="70"
-                  image={require("assets/img/trans.png")}
-                  title="Bel Kiff News"/>
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    Degital transformation
+              <Card className={classes.root}>
+                <CardActionArea>
+                  <CardMedia
+                    component="img"
+                    alt="Contemplative Reptile"
+                    height="160"
+                    width="70"
+                    image={require("assets/img/trans.png")}
+                    title="Bel Kiff News" />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      Degital transformation
                   </Typography>
-                  <Typography variant="body2" color="textSecondary" component="p">
-                    with bel kiff you can change all your 
+                    <Typography variant="body2" color="textSecondary" component="p">
+                      with bel kiff you can change all your
                   </Typography>
-                </CardContent>
-              </CardActionArea>  
-            </Card>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
             </GridItem>
 
-          <GridItem xs={8} sm={8} md={4}>
-            <Card className={classes.root}>
-             <CardActionArea>
-               <CardMedia
-                  component="img"
-                  alt="Contemplative Reptile"
-                  height="160"
-                  width="70"
-                  image={require("assets/img/trans.png")}
-                  title="Contemplative Reptile"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Degital transformation
+            <GridItem xs={8} sm={8} md={4}>
+              <Card className={classes.root}>
+                <CardActionArea>
+                  <CardMedia
+                    component="img"
+                    alt="Contemplative Reptile"
+                    height="160"
+                    width="70"
+                    image={require("assets/img/trans.png")}
+                    title="Contemplative Reptile"
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      Degital transformation
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            with bel kiff you can change all your 
+                    <Typography variant="body2" color="textSecondary" component="p">
+                      with bel kiff you can change all your
           </Typography>
-        </CardContent>
-      </CardActionArea>
-      
-    </Card>  
+                  </CardContent>
+                </CardActionArea>
+
+              </Card>
             </GridItem>
             <GridItem xs={8} sm={8} md={4} className='card'>
-            <Card className={classes.root}>
-             <CardActionArea>
-               <CardMedia
-                  component="img"
-                  alt="Contemplative Reptile"
-                  height="160"
-                  width="70"
-                  image={require("assets/img/trans.png")}
-                  title="Bel Kiff" />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="h2">
-                  Degital transformation
+              <Card className={classes.root}>
+                <CardActionArea>
+                  <CardMedia
+                    component="img"
+                    alt="Contemplative Reptile"
+                    height="160"
+                    width="70"
+                    image={require("assets/img/trans.png")}
+                    title="Bel Kiff" />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                      Degital transformation
                 </Typography>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  with bel kiff you can change all your 
+                    <Typography variant="body2" color="textSecondary" component="p">
+                      with bel kiff you can change all your
                 </Typography>
-              </CardContent>
-            </CardActionArea>
-      
-    </Card>  
+                  </CardContent>
+                </CardActionArea>
+              </Card>
             </GridItem>
-          
           </GridContainer>
         </div>
       </div>
