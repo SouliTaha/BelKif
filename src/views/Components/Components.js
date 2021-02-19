@@ -63,18 +63,10 @@ export default function Components(props) {
           </GridContainer>
         </div>
       </Parallax>
-
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionBasics />
         <SectionCarousel />
         <SectionTabs />
-        <SectionPills />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavascript />
-        
-        <SectionExamples />
-        <SectionDownload />
       </div>
       <Footer />
     </div>

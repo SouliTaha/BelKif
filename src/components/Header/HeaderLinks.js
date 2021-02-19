@@ -28,7 +28,7 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
       <Button
-          href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
+          href="#"
           color="transparent"
           target="_blank"
           className={classes.navLink}
@@ -38,7 +38,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
+          href="#"
           color="transparent"
           target="_blank"
           className={classes.navLink}
@@ -48,7 +48,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
       <Button
-          href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
+          href="#"
           color="transparent"
           target="_blank"
           className={classes.navLink}
@@ -58,7 +58,7 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
       <Button
-          href="https://www.creative-tim.com/product/material-kit-react?ref=mkr-navbar"
+          href="#"
           color="transparent"
           target="_blank"
           className={classes.navLink}
@@ -97,7 +97,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim?ref=creativetim"
+            href="#"
             target="_blank"
             className={classes.navLink}
           >
