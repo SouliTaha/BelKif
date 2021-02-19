@@ -18,15 +18,15 @@ import Parallax from "components/Parallax/Parallax.js";
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
 
 // Sections for this page
-import ProductSection from "./Sections/ProductSection.js";
-import TeamSection from "./Sections/TeamSection.js";
-import WorkSection from "../ContactPage/WorkSection.js";
+import ProductSection from "../../views/LandingPage/Sections/ProductSection";
+import TeamSection from "../../views/LandingPage/Sections/TeamSection";
+import WorkSection from "./WorkSection";
 
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
 
-export default function LandingPage(props) {
+export default function ContactPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
@@ -43,11 +43,11 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+      <Parallax filter image={require("assets/img/bg3.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-              <h1 className={classes.title}>Your Story Starts With Us.</h1>
+              <h1 className={classes.title}>Contact Us.</h1>
               <br />
             </GridItem>
           </GridContainer>
@@ -55,8 +55,7 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <ProductSection />
-          <TeamSection />
+          <WorkSection />
         </div>
       </div>
       <Footer />
