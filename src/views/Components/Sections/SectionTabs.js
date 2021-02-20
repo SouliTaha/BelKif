@@ -11,6 +11,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from '@material-ui/core/Card';
 import Typography from '@material-ui/core/Typography';
+import { NavLink } from 'react-router-dom';
 
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
@@ -66,19 +67,21 @@ export default function SectionTabs() {
                     alt="Contemplative Reptile"
                     height="260"
                     width="70"
-                    image={require("assets/img/trans.png")}
+                    image={require("assets/img/Home.png")}
                     title="Contemplative Reptile"
                   />
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Degital transformation
+                      FishComb
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
                       with bel kiff you can change all your
                     </Typography>
-                    <Button >
-                      Voir
-                    </Button>
+                     <NavLink to="/fishcomb">
+                      <Button >
+                        Voir
+                      </Button>
+                     </NavLink>
                   </CardContent>
                 </CardActionArea>
               </Card>

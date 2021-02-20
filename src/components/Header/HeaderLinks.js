@@ -3,7 +3,7 @@ import React from "react";
 import DeleteIcon from "@material-ui/icons/Delete";
 import IconButton from "@material-ui/core/IconButton";
 // react components for routing our app without refresh
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
@@ -37,24 +37,26 @@ export default function HeaderLinks(props) {
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Button
-          href="/landing-page"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-           About Us 
-        </Button>
+        <NavLink to='/about'>
+          <Button
+            color="transparent"
+            target="_blank"
+            className={classes.navLink}
+          >
+            About Us 
+          </Button>
+        </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
+      <NavLink to='/contactus'>
       <Button
-          href="/contactus"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
          Contact
         </Button>
+      </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
       <Button
