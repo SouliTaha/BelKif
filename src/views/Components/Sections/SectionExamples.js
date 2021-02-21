@@ -22,6 +22,8 @@ export default function SectionExamples() {
   return (
     <div className={classes.section}>
       <div className={classes.container}>
+        <h4 style={{marginBottom:'40px'}}>Our projects</h4>
+        <hr width='30%' style={{marginBottom:'40px'}}/>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={6}>
             <Link to="landing-page" className={classes.link}>

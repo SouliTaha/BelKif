@@ -62,15 +62,126 @@ export default function FishComb(props) {
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={6}>
+         
               </GridItem>
             </GridContainer>
             <div className={classes.description}>
+              <h1>
+                  FishComb
+                </h1>
               <p>
               <h1>FishComb</h1>
               </p>
             </div>
             <GridContainer justify="center">
-              
+              <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
+                <NavPills
+                  alignCenter
+                  color="primary"
+                  tabs={[
+                    {
+                      tabContent: (
+                        <GridContainer justify="center">
+                          <GridItem xs={12} sm={12} md={4}>
+                            <img
+                              alt="..."
+                              src=""
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src=""
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={4}>
+                            <img
+                              alt="..."
+                              src=""
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src=""
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                        </GridContainer>
+                      )
+                    },
+                    {
+                      tabContent: (
+                        <GridContainer justify="center">
+                          <GridItem xs={12} sm={12} md={4}>
+                            <img
+                              alt="..."
+                              src={work1}
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src={work2}
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src={work3}
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={4}>
+                            <img
+                              alt="..."
+                              src={work4}
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src={work5}
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                        </GridContainer>
+                      )
+                    },
+                    {
+                      tabContent: (
+                        <GridContainer justify="center">
+                          <GridItem xs={12} sm={12} md={4}>
+                            <img
+                              alt="..."
+                              src=""
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src=""
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                          <GridItem xs={12} sm={12} md={4}>
+                            <img
+                              alt="..."
+                              src=""
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src=""
+                              className={navImageClasses}
+                            />
+                            <img
+                              alt="..."
+                              src=""
+                              className={navImageClasses}
+                            />
+                          </GridItem>
+                        </GridContainer>
+                      )
+                    }
+                  ]}
+                />
+              </GridItem>
             </GridContainer>
           </div>
         </div>

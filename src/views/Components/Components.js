@@ -47,10 +47,10 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/deg.jpg")}>
+      <Parallax filter image={require("assets/img/landing-bg.jpg")}>
         <div className={classes.container}>
           <GridContainer>
-            <GridItem>
+            <GridItem>    
             <div className={classes.brand}>
                 <NavLink to='/'>
                   <h1>BEL KIF</h1> 
@@ -68,6 +68,7 @@ export default function Components(props) {
         <SectionBasics />
         <SectionCarousel />
         <SectionTabs />
+        <SectionExamples/>
       </div>
       <Footer />
     </div>
