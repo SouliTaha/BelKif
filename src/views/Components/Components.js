@@ -2,7 +2,7 @@ import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // react components for routing our app without refresh
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
@@ -54,7 +54,9 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>    
             <div className={classes.brand}>
-                <h1>BEL KIF</h1> 
+                <NavLink to='/'>
+                  <h1>BEL KIF</h1> 
+                </NavLink>
                 <h1 className={classes.title}>Where passion meets profession.</h1>
                 <h3 className={classes.subtitle}>
                 Empowering people and business.

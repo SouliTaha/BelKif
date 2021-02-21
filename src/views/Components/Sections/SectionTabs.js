@@ -58,54 +58,6 @@ export default function SectionTabs() {
             </Card.Body>
             </Card>
             </Col>
-            <Col sm={8} xs={8} md={4}>
-            <Card style={{ width: '22rem' }}>
-            <CardMedia
-                    component="img"
-                    alt="Contemplative Reptile"
-                    height="260"
-                    width="70"
-                    image={require("assets/img/Home.png")}
-                    title="Contemplative Reptile"
-                  />
-            <Card.Body>
-              <Card.Title>FishComb</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
-              </Card.Text>
-              <NavLink to="/fishcomb">
-                      <Button >
-                        Voir
-                      </Button>
-                     </NavLink>
-            </Card.Body>
-            </Card>
-            </Col>
-            <Col sm={8} xs={8} md={4}>
-            <Card style={{ width: '22rem' }}>
-            <CardMedia
-                    component="img"
-                    alt="Contemplative Reptile"
-                    height="260"
-                    width="70"
-                    image={require("assets/img/Home.png")}
-                    title="Contemplative Reptile"
-                  />
-            <Card.Body>
-              <Card.Title>FishComb</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
-              </Card.Text>
-              <NavLink to="/fishcomb">
-                      <Button >
-                        Voir
-                      </Button>
-                     </NavLink>
-            </Card.Body>
-            </Card>
-            </Col>
           </GridContainer>
         </div>
       </div>
