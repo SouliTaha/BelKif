@@ -47,6 +47,8 @@ export default function Components(props) {
         }}
         {...rest}
       />
+         
+
       <Parallax filter image={require("assets/img/landing-bg.jpg")}>
         <div className={classes.container}>
           <GridContainer>
@@ -64,9 +66,8 @@ export default function Components(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionBasics />
-        <SectionCarousel />
         <SectionTabs />
-        <SectionExamples/>
+     
       </div>
       <Footer />
     </div>
