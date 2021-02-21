@@ -60,6 +60,7 @@ export default function HeaderLinks(props) {
       </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
+      <NavLink to='blog'>
       <Button
           color="transparent"
           target="_blank"
@@ -67,6 +68,7 @@ export default function HeaderLinks(props) {
         >
          Blog
         </Button>
+      </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">

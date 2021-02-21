@@ -12,11 +12,12 @@ import LoginPage from "views/LoginPage/LoginPage.js";
 import ContactPage from "views/ContactPage/ContactPage";
 import FishComb from "views/FishComb/FishComb.js";
 import Solution from "views/Solution/Solution.js";
-
+import BlogItem from "views/Blog/BlogItem.js"
 var hist = createBrowserHistory();
 
 ReactDOM.render(
   <Router history={hist}>
+
     <Switch>
       <Route path="/about" component={LandingPage} />
       <Route path="/solution" component={Solution} />
@@ -24,6 +25,7 @@ ReactDOM.render(
       <Route path='/fishcomb' component={FishComb} />
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
+      <Route path='/blog'component={BlogItem}/>
       <Route path="/" component={Components} />
     </Switch>
   </Router>,

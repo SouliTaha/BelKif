@@ -58,9 +58,9 @@ export default function Components(props) {
                   <h1>BEL KIF</h1> 
                 </NavLink>
                 <h1 className={classes.title}>Where passion meets profession.</h1>
-                <h3 className={classes.subtitle}>
-                Empowering people and business.
-                </h3>
+                  <h3 className={classes.subtitle}>
+                    Empowering people and business.
+                  </h3>
               </div>
             </GridItem>
           </GridContainer>
