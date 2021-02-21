@@ -40,7 +40,7 @@ export default function TeamSection() {
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Gigi Hadid
+                Souli Taha
                 <br />
                 <small className={classes.smallTitle}>Model</small>
               </h4>
@@ -83,7 +83,7 @@ export default function TeamSection() {
                 <img src={team2} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Christian Louboutin
+                Nader Saoudi
                 <br />
                 <small className={classes.smallTitle}>Designer</small>
               </h4>
@@ -119,7 +119,7 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Kendall Jenner
+                Safsaf Med Raed
                 <br />
                 <small className={classes.smallTitle}>Model</small>
               </h4>

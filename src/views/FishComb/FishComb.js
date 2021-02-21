@@ -62,12 +62,13 @@ export default function FishComb(props) {
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem xs={12} sm={12} md={6}>
-                
-                 
-              
+         
               </GridItem>
             </GridContainer>
             <div className={classes.description}>
+              <h1>
+                  FishComb
+                </h1>
               <p>
                 An artist of considerable range, Chet Faker — the name taken by
                 Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
@@ -82,31 +83,29 @@ export default function FishComb(props) {
                   color="primary"
                   tabs={[
                     {
-                      tabButton: "Studio",
-                      tabIcon: Camera,
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={studio1}
+                              src=""
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={studio2}
+                              src=""
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={studio5}
+                              src=""
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={studio4}
+                              src=""
                               className={navImageClasses}
                             />
                           </GridItem>
@@ -114,8 +113,6 @@ export default function FishComb(props) {
                       )
                     },
                     {
-                      tabButton: "Work",
-                      tabIcon: Palette,
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
@@ -151,36 +148,34 @@ export default function FishComb(props) {
                       )
                     },
                     {
-                      tabButton: "Favorite",
-                      tabIcon: Favorite,
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={work4}
+                              src=""
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={studio3}
+                              src=""
                               className={navImageClasses}
                             />
                           </GridItem>
                           <GridItem xs={12} sm={12} md={4}>
                             <img
                               alt="..."
-                              src={work2}
+                              src=""
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={work1}
+                              src=""
                               className={navImageClasses}
                             />
                             <img
                               alt="..."
-                              src={studio1}
+                              src=""
                               className={navImageClasses}
                             />
                           </GridItem>
