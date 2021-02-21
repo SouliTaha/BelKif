@@ -23,8 +23,11 @@ import CustomInput from "components/CustomInput/CustomInput.js";
 import CustomLinearProgress from "components/CustomLinearProgress/CustomLinearProgress.js";
 import Paginations from "components/Pagination/Pagination.js";
 import Badge from "components/Badge/Badge.js";
+import team3 from "assets/img/faces/kendall.jpg";
+
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/basicsStyle.js";
+import { Col, Row } from "react-bootstrap";
 
 const useStyles = makeStyles(styles);
 
@@ -38,27 +41,27 @@ export default function SectionBasics() {
     <div className={classes.sections}>
       <div className={classes.container}>
         <div className={classes.title}>
-          <h2>Technology</h2>
+          <h2 justify='center'>Technology</h2>
         </div>
         <div id="buttons">
         
-          <GridContainer justify="center">
-            <GridItem xs={12} sm={12} md={8}>
-              aaaa
+          <GridContainer>
+            <GridItem xs={12} sm={12} md={12}>
+              <Row>
+                <Col xs={3} sm={3} md={3} ><img src={team3}  alt="..." width='auto' height='150'/></Col>
+                <Col xs={3} sm={3} md={3}> <img src={team3} alt="..." width='auto' height='150'/></Col>
+                <Col xs={3} sm={3} md={3}><img src={team3}  alt="..." width='auto' height='150'/></Col>
+                <Col xs={3} sm={3} md={3}><img src={team3}  alt="..." width='auto' height='150'/></Col>
+
+             
+              
+
+              </Row>
+              
             </GridItem>
           </GridContainer>
          
-          <GridContainer justify="center">
-            <GridItem xs={12} sm={12} md={8}>
-            bbbb
-            </GridItem>
-          </GridContainer>
-        
-          <GridContainer justify="center">
-            <GridItem xs={12} sm={12} md={8}>
-            cccccccc
-            </GridItem>
-          </GridContainer>
+          
         </div>
         <div className={classes.space50} />
       </div> 
