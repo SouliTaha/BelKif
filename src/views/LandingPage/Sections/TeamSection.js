@@ -205,7 +205,7 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Kendall Jenner
+                Arfaoui Ghassen
                 <br />
                 <small className={classes.smallTitle}>Model</small>
               </h4>

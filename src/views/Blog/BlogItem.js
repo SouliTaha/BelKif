@@ -31,7 +31,7 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPage.js";
-import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 // Sections for this page
 
@@ -74,8 +74,8 @@ export default function BlogItem(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-        <div className>
-            <h2 style={{color:'black',}}>Blogs</h2>
+        <div className style={{paddingTop:'100px',paddingBottom:'150px'}}>
+            <h2 style={{color:'black',paddingTop:'50'}}>Blogs</h2>
         <Card className='mt-5 mb-5'>
       <CardHeader
         avatar={
@@ -93,14 +93,16 @@ export default function BlogItem(props) {
       />
       <CardMedia
         className={classes.media}
-        image="assets/img/deg.png"
+        image={require("assets/img/deg.jpg")}
         title="JavaSript ES6"
       />
       <CardContent>
+         
         <Typography variant="body2" color="textSecondary" component="p">
         JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB, and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.
         </Typography>
       </CardContent>
+      
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
@@ -163,8 +165,11 @@ export default function BlogItem(props) {
           <Typography>
           2. What are the primitive types in JavaScript?
           </Typography>
+          
         </CardContent>
+        
       </Collapse>
+      
     </Card>
     <Card className='mt-5 mb-5'>
       <CardHeader
